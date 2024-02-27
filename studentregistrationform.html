@@ -1,0 +1,66 @@
+
+<html>
+    <head>
+    <link rel="stylesheet" href="student form.css"></link>
+    </head>
+<body>
+<form action="action_page.php">
+<h1><center> STUDENT REGISTRATION FORM </center></h1>
+    
+
+<BR><BR><BR>
+<b>Name:</b>  <input type="text" name="name" placeholder="Enter full name"><br><br>
+<b>Father's name:</b> <input type="text" name="Fname"><br><br>
+<b>Mother's name:</b> <input type="text" name="Mname"><br><br>
+<b>Phone number:</b> <input type="text" placeholder=017xxxxxx name="pnumber"><br><br>
+<b>Email:</b> <input type="text" name="Email"><br><br>
+<td><b> Gender:</b></td>
+<input type="radio" name="Gender" value="male"> male
+<input type="radio" name="Gender" value="female"> female
+<input type="radio" name="Gender" value="other"> other
+<br><br>
+<td><b> Date of birth:</b></td>
+<td><input type="date" name="birth_date"></td><br><br><br>
+<td><b> Address</b></td>
+<input type="text" name="Address" placeholder="street:-  house:-  road:- "><br><br>
+<td><b> Blood Group:</b></td>
+<input type="text" name="blood group">
+<select name="blood Group">
+    <option value="0"> select </option>
+    <option value="1"> O+ </option>
+    <option value="2"> A+ </option>
+    <option value="3"> B+ </option>
+    <option value="4"> AB+ </option>
+    <option value="5"> O- </option>
+    <option value="6"> A- </option>
+    <option value="7"> B- </option>
+    <option value="8"> AB- </option>
+
+</select>
+<br><br>
+<td><b> Department:</b></td>
+<input type="checkbox" value="CSE" name="Department"><label for="CSE">CSE</label>
+<input type="checkbox" value="EEE" name="Department"><label for="EEE">EEE</label>
+<input type="checkbox" value="BBA" name="Department"><label for="BBA"> BBA</label><br><br>
+<td><b> Course :</b></td>
+<input type="checkbox" value="c" name="Course"><label for="c">c</label>
+<input type="checkbox" value="c++" name="Course"><label for="c++">c++</label>
+<input type="checkbox" value="Java" name="Course"><label for="Java">Java</label>
+<input type="checkbox" value="AI" name="Course"><label for="AI">AI</label>
+<input type="checkbox" value="Robotics" name="Course"><label for="Robotics">Robotics</label><br><br>
+<td><b>Photo:</b></td>
+<input type="file" name="photo" placeholder="choose file" ><br><br><br>
+<button type="submit" value="submit"> submit 
+<br>
+<button type="reset" value="reset"> reset
+
+
+
+
+
+
+
+
+</form>
+</body>
+</html>
