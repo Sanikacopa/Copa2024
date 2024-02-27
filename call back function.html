@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <h1 call back function></h1>
+    </head>
+    <title> js function </title>
+    <body>
+        <script>
+            function sayhello()
+            {
+                console.log("Hello");
+            }
+            function add(num1,num2,copa)
+            {
+                console.log(num1+num2);
+                copa();
+            }
+            let a=10;
+            let b=20;
+            add(a,b,sayhello);
+        </script>
+    </body>
+</html>
+
